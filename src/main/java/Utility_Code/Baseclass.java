@@ -1,4 +1,4 @@
-package Lenovo.LenovoProject;
+package Utility_Code;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,20 +20,20 @@ public class Baseclass {
 		if(browser.equals("chrome"))
 		{
 			
-			System.setProperty("webdriver.chrome.driver", "./src/main/java/Uility/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./src/main/java/UilityFiles/chromedriver.exe");
 			 driver = new ChromeDriver();
 		}
 		
 		else if(browser.equals("firefox"))
 		{
-			System.setProperty("webdriver.chrome.driver", "./src/main/java/Uility/geckodriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./src/main/java/UilityFiles/geckodriver.exe");
 			 driver = new FirefoxDriver();
 			
 		}
 		
 		else if(browser.equals("IE")) {
 			
-			System.setProperty("webdriver.chrome.driver", "./src/main/java/Uility/IEDriverServer.exe");
+			System.setProperty("webdriver.chrome.driver", "./src/main/java/UilityFiles/IEDriverServer.exe");
 			 driver = new InternetExplorerDriver();
 		}
 		else

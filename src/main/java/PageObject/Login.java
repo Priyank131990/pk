@@ -23,13 +23,13 @@ public class Login {
 	
 
 
-	public WebElement email()
+	public WebElement mail()
 	{
 		return driver.findElement(email);
 		
 	}
 
-	public WebElement password()
+	public WebElement pass()
 	{
 		return driver.findElement(password);
 		
