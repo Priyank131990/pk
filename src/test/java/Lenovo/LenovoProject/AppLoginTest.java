@@ -22,6 +22,7 @@ public class AppLoginTest extends Baseclass {
 		lg.password().sendKeys("Priyank@123");
 		
 		lg.clickToLogin().click();
+		driver.close();
 		
 		//After Class
 		
